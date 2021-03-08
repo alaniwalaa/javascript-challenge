@@ -2,11 +2,10 @@
 var tableData = data;
 
 // THE CODE 
+//  ##### UFO -LEVEL-1 ##### // 
+
 // Append a table to the web page 
 var table = d3.select('table')
-// table.append(tableData); 
-
-// ### Add new rows of data for each UFO Sighting ### //
 
 // table outlook 
 table.attr('class', 'table table-striped');
@@ -56,3 +55,6 @@ userInput.on('change', function() {
     var newInput = d3.event.target.value;
     console.log(newInput);
 });
+
+
+//  ##### UFO -LEVEL-2 ##### // 
